@@ -1,12 +1,6 @@
-# Dexie Cloud ToDo app
+# Campfire Chat app
 
 This project is built with [Vite](https://vitejs.dev/) and uses TypeScript and React.
-
-## How to use the sample
-
-**[You can open a deployed version of this PWA at https://dexie.github.io/Dexie.js/dexie-cloud-todo-app](https://dexie.github.io/Dexie.js/dexie-cloud-todo-app)**
-
-If you just want to see the app in action, navigate to the [pre-built published version](https://dexie.github.io/Dexie.js/dexie-cloud-todo-app/).
 
 If you want to build and play with it locally, follow these steps:
 
@@ -21,6 +15,12 @@ The steps above will:
 2. Install dependencies
 3. Import demo-users to your database and create a .env.local file that connects the ToDo app to your database.
 4. Build and start the application in local dev-mode with Vite's fast HMR (Hot Module Replacement).
+
+## Ready to deploy after making changes locally
+
+1. Commit changes and push
+2. `npm run build`
+3. `npm run deploy` - This updates gh-pages branch automatically and on your live page https://{username}.github.io/campfire/
 
 ## Activating Service Worker
 
@@ -146,3 +146,4 @@ Unlike Create React App's `%PUBLIC_URL%` template syntax, Vite handles public pa
 The `PUBLIC_URL` environment variable is automatically converted to Vite's `base` option during build.
 
 The application functionality remains exactly the same, but with better performance and developer experience.
+

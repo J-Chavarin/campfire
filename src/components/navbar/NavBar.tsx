@@ -27,7 +27,7 @@ export function NavBar() {
           {/* Logo/Brand */}
           <div className="flex items-center">
             <h1 className="text-xl font-semibold text-foreground">
-              Dexie Cloud ToDo App
+              Campfire App
             </h1>
           </div>
 
